@@ -9,3 +9,5 @@
 * Item Three
 * Item Four
 * Item Five
+
+[example]: http://www.example.com "An Example Link"
