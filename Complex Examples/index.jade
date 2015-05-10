@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title= "Bullets Demo"
+  body
+    h1 Bullets Example
+    section#ordered-heirarchical-list
+      header
+        h2 Ordered Heirarchical List
+      include:markdown snippets/ordered-heirarchical-list.md
+    section#unordered-heirarchical-list
+      header
+        h2 Unordered Heirarchical List
+      include:markdown snippets/unordered-heirarchical-list.md
+    section#simple-content
+      header
+        h2 Simple Content
+      include:markdown snippets/simple-content.md
+    section#complex-heirarchical-content
+      header
+        h2 Complex Heirarchical Content
+      include:markdown snippets/complex-heirarchical-content.md
