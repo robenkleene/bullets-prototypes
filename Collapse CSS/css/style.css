@@ -9,3 +9,7 @@ body {
 /* 	display: none; */
 	background-color: #ebebfc;	
 }
+
+h5.collapse ~ *:not(h5):not(h1) {
+	background-color: #ebebfc;
+}
