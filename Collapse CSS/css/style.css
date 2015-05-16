@@ -10,6 +10,21 @@ body {
 	background-color: #ebebfc;	
 }
 
+/*
 h5.collapse ~ *:not(h5):not(h1) {
 	background-color: #ebebfc;
 }
+*/
+h5.collapse ~ *:not(h1) {
+	background-color: #ebebfc;
+}
+
+h5.collapse ~ h1 ~ * {
+	background-color: blue;	
+}
+
+/*
+h1 ~ * {
+	background-color: blue !important;
+}
+*/
