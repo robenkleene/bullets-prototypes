@@ -1,0 +1,38 @@
+h1#test-1(style='display: none;' data-forward='h3-1') h1-1
+p p-1
+h3 h3-1
+h2#test-2(style='display: none;' data-backward='h3-1' data-forward='li-5') h2-1
+p p-2
+ol
+  li(style='display: none;') li-1
+  li(style='display: none;') li-2
+  li(style='display: none;') li-3
+ul
+  li(style='display: none;') li-4
+  li#test-3(data-backward='li-5' data-forward='li-5') li-5
+  li li-6
+ul
+  li li-7
+  ul
+    li li-8
+    li#test-4(style='display: none;' data-backward='li-8' data-forward='li-10') li-9
+    li li-10
+  ul
+    li li-11
+    li#test-5(style='display: none;' data-backward='li-11' data-forward='li-16') li-12
+    li(style='display: none;') li-14
+ul
+  li(style='display: none;' data-backward='li-11' data-forward='li-16') li-13
+    ul 
+      li li-14
+ul
+  li#test-6(style='display: none;' data-backward='li-7' data-forward='li-12') li-15
+ul
+  li li-16
+  li#test-7(style='display: none;' data-backward='li-12') li-19 li-17
+p p-3
+  ul
+    li li-18
+      span
+    li#test-8(style='display: none;' data-backward='li-12') li-19
+    li li-20
