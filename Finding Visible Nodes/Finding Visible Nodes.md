@@ -60,7 +60,11 @@ Find forward:
 	}
 	
 	if element.isHeader {
-		return nextEqualOrHigherPrecedenceHeader
+		sibling = nextEqualOrHigherPrecedenceHeaderSibling
+		if !!sibling {
+			return sibling
+		}
+		return nextSelectableNode(element)
 	}
 	
 	if element.isHeirarchical {
