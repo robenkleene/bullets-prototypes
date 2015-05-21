@@ -68,6 +68,8 @@ Find forward:
 	}
 	
 	if element.isHeirarchical {
+		// If it's heirarchical and collapsed
+		// I need a way to jump to the next sibling, then do 
 		return nextSelectableNodeAfterElement(element.nextElementSibling)
 	}
 
@@ -89,3 +91,7 @@ Find Backward:
 			return firstSelectableChild
 		}
 	}
+
+## Resources
+
+* [JavaScript equivalent to JQuery .next() - Stack Overflow](http://stackoverflow.com/questions/20625180/javascript-equivalent-to-jquery-next)
